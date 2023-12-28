@@ -275,7 +275,7 @@ def get_pose3D(video_path, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--video', type=str, default='sample_video.mp4', help='input video')
+    parser.add_argument('--video', type=str, default='C000S001F001N000.mp4', help='input video')
     parser.add_argument('--gpu', type=str, default='0', help='input video')
     args = parser.parse_args()
 

@@ -1,2 +1,8 @@
 __pycache__/
 .DS_Store
+
+checkpoint/*
+demo/output/*
+demo/video/*
+demo/lib/checkpoint/pose_hrnet_w48_384x288.pth
+demo/lib/checkpoint/yolov3.weights
